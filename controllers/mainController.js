@@ -1,11 +1,11 @@
 
 
 module.exports = {
-    jom : (req,res) => {
+    home : (req,res) => {
        return res.render('home') /* retorna el home */
 
     },
-    abaut: (req,res) => {
+    about: (req,res) => {
         return res.render('about') /* retorna el about */
 
     },

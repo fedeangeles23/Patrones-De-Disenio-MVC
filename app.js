@@ -9,8 +9,8 @@ const liveReloadServer = livereload.createServer();
 /* Rutas del Controller */
 const mainRouter = require('./routers/main'); /* ruta main requerida */
 
-/* views engine setup */
-app.set('views',path.join(__dirname,'views'));
+/* views engine setup */ //motor de plantillas
+app.set('views',path.join(__dirname,'views')); /* Para que al utilizar res render nos renderice el home */
 app.set('view engine','ejs');
 
 

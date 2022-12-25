@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const {jom,abaut} = require('../controllers/mainController') /* en esta variable se declaran el home y about */
+const { home, about } = require('../controllers/mainController') /* Declaro las variables para utilizarlas en el controlador */
 
-router.get('/',jom);
-router.get('/about',abaut)
+router.get('/', home);
+router.get('/about', about)
 
 module.exports = router;

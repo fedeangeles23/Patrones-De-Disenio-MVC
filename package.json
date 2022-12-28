@@ -1,5 +1,5 @@
 {
-  "name": "mi-porfolio-mvc",
+  "name": "tp10-patrones-de-diseno-mvc",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,7 +8,7 @@
     "Comision 17": "nodemon --ext js,ejs --ignore public"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fede Angeles",
   "license": "ISC",
   "dependencies": {
     "connect-livereload": "^0.6.1",
